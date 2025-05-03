@@ -6,7 +6,7 @@ import os
 from dotenv import load_dotenv
 from IPython.display import Markdown
 from crewai import Agent, Task, Crew
-from crewai_tools import SerperDevTool, ScrapeWebsiteTool, WebsiteSearchTool
+from crewai_tools import ScrapeWebsiteTool
 
 load_dotenv()
 os.environ["OPENAI_MODEL_NAME"] = 'gpt-3.5-turbo'
